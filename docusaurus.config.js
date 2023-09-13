@@ -21,6 +21,9 @@ const config = {
   organizationName: 'railofsky', // Usually your GitHub org/user name.
   projectName: 'railofsky.github.io', // Usually your repo name.
 
+  // 上传代码时有两个注意事项，一是deploymentBranch，二是需要配置变量GIT_USER：github用户名
+  deploymentBranch: 'gh-pages',
+
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
